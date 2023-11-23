@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaTicketAlt } from "react-icons/fa";
 import { IoMdCreate } from "react-icons/io";
+import { IoMdMail } from "react-icons/io";
 
 function Home() {
   return (
@@ -18,7 +19,14 @@ function Home() {
           <FaTicketAlt /> View My Tickets
         </Link>
       </div>
+      <div className="contact">
+        <hr/>
+        CONTACT US
+        <p><IoMdMail /> kumar.rishabh2021@vitstudent.ac.in</p>
+        <p><IoMdMail /> riddhesh.karnik2021@vitstudent.ac.in</p>
+      </div>
     </div>
+    
   );
 }
 
