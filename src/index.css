@@ -408,6 +408,17 @@ footer {
   animation: spin 1.2s linear infinite;
 }
 
+.contact{
+  padding: 100px;
+  text-align:center;
+  color:#17494d;
+  font-size:12px;
+}
+.contact hr{
+  width:1000px;
+  color: #17494d;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
